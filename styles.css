@@ -1,0 +1,54 @@
+body {
+	background: black;
+}
+.postcard {
+	background-color: white;
+	font-family: "Comic Sans MS";
+	width: 400px;
+	height: 315px;
+	margin: auto;
+}
+.postcard-header {
+	margin-left: 7px;
+	display: flex;
+}
+.postcard-header img {
+	margin-top: 2px;
+	width: 50px;
+	height: 50px;
+}
+.postcard-header h1 {
+	font-size: 30px;
+	width: 335px;
+	margin: 0px;
+}
+.postcard-body {
+	display: flex;
+}
+.body-left p:first-child {
+	margin-top: 0px;
+}
+.body-left,
+.body-right {
+	padding: 5px;
+}
+.body-right input {
+	border: 0px;
+}
+.body-right input:placeholder-shown {
+	text-decoration: underline gray 0.1px;
+}
+.postcard-footer {
+	text-align: center;
+}
+.postcard-footer button {
+	background: lightgrey;
+	padding: 5px;
+	border-radius: 5px;
+}
+.postcard-footer button:hover {
+	background: grey;
+}
+.postcard-footer button:active {
+	background: darkgrey;
+}
